@@ -1,0 +1,252 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem;
+  background-color: rgb(255, 255, 255);
+  padding-right: 5rem;
+  box-shadow:0 5px 20px 0 gray;
+}
+.logo {
+  padding-left: 5rem;
+  color: #d70f64;
+  font-size: 2rem;
+}
+.topbtns {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  padding: 5px 10px;
+  margin: 0.2rem;
+  border-radius: 20%;
+  font-size: larger;
+  transition: 0.3s ease;
+}
+#login{
+  background-color: white;
+  color: #D70F64;
+  border: 1px solid #D70F64;
+}
+#signup{
+  background-color: #D70F64;
+  color: white;
+  border: none;
+}
+.btn:hover{
+transform: scale(1.2);
+}
+#login:hover{
+  background-color: #fff4fa;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4rem;
+  padding-left: 6rem;
+}
+#mainimg {
+  width: 40rem;
+  height: 35rem;
+  /* background-color: aqua; */
+}
+#heading {
+  font-size: 3rem;
+  /* background-color: brown; */
+}
+.inputbox {
+  /* background-color: chartreuse; */
+  border: 4px solid rgb(255, 229, 229);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow:0 5px 20px 5px gray;
+}
+.inputbox > input {
+  height: 3rem;
+  border: none;
+}
+.inputbox > button {
+  font-size: 1rem;
+  padding: 0.9rem;
+  border-radius: 0.7rem;
+  background-color: #d70f64;
+  color: white;
+  border: none;
+}
+
+.partners {
+  /* background-color: aqua; */
+  padding-top: 4rem;
+  margin: 2rem 0;
+}
+.caption {
+  font-size: 2.3rem;
+  font-weight: 900;
+  padding-left: 7rem;
+  padding-bottom: 2.1rem;
+}
+.partners .header-text {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.content {
+  font-size: 1.1rem;
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+  margin-top: -10rem;
+  position: absolute;
+  width: 40rem;
+  height: 20rem;
+  margin-left: 5rem;
+  padding: 1.5rem 4rem;
+  border: none;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow:0 5px 20px 0 gray;
+}
+.partners button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 1rem 1.7rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #d70f64;
+  color: white;
+}
+
+.cities {
+  padding-top: 12rem;
+}
+.container {
+  /* border: 2px solid black; */
+  padding: 2rem;
+}
+.city-header-text {
+  padding-left: 6rem;
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+.card1 {
+  border-radius: 2rem;
+  width: 23rem;
+  height: 272px;
+  overflow: hidden;
+}
+.card1 img {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease;
+}
+.card1 img:hover {
+  height: 100%;
+  width: 100%;
+  transform: scale(1.2);
+}
+.card1 p {
+  margin-top: -4rem;
+  position: absolute;
+  font-size: 1.6rem;
+  background-color: white;
+  margin-left: 1rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.office {
+  /* background-color: #d70f64; */
+  padding-top: 4rem;
+  margin: 2rem 0;
+}
+.off-caption {
+  font-size: 2.3rem;
+  font-weight: 900;
+  padding-left: 7rem;
+  padding-bottom: 2.1rem;
+}
+.off-header-text {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.off-content {
+  font-size: 1.1rem;
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+  margin-top: -10rem;
+  position: absolute;
+  width: 30rem;
+  height: 15rem;
+  margin-left: 8rem;
+  padding: 1.5rem 4rem;
+  border: none;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow:0 5px 20px 0 gray;
+}
+.office button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 1rem 1.7rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #d70f64;
+  color: white;
+}
+
+.info-content {
+  padding-top: 10rem;
+  padding-left: 9rem;
+  line-height: 2rem;
+}
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.second-heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.third-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.local-container{
+  padding-top: 6rem ;
+  padding-left: 7rem;
+  background-color: chartreuse;
+}
+.locations{
+  font-size: 1.5rem;
+}
+.name{
+  font-size: 1rem;
+  padding-top: 4rem;
+  
+}
+
+.service{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #D70F64";
+}
+.footer{
+  font-size: 1.4rem;
+  font-weight: 900;
+  padding: 3rem 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
